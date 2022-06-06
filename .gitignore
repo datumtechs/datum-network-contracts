@@ -1,0 +1,12 @@
+DataToken/build
+DataToken/node_modules 
+DataToken/package-lock.json
+DataToken/.openzeppelin
+DatumNetworkPay/build
+DatumNetworkPay/node_modules 
+DatumNetworkPay/package-lock.json
+DatumNetworkPay/.openzeppelin
+NFT/build
+NFT/node_modules 
+NFT/package-lock.json
+NFT/.openzeppelin

@@ -1,0 +1,21 @@
+{
+  "name": "datumnetworkpay",
+  "version": "1.0.0",
+  "description": "metis 业务支付相关合约，支持升级。",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "jsonfile": "^6.1.0"
+  }
+}

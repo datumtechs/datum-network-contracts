@@ -1,0 +1,22 @@
+{
+  "name": "datatoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.5",
+    "jsonfile": "^6.1.0",
+    "openzeppelin-solidity": "^2.5.0"
+  },
+  "dependencies": {
+    "web3": "^1.7.3"
+  }
+}
