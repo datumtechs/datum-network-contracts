@@ -53,6 +53,9 @@ truffle migrate --network platondev -f 3
 # 单元测试
 truffle test --network platondev
 
+# 测试指定的测试文件
+# truffle test --network platondev test/ERC20TemplateTest.js
+
 # 调用 console 和链进行交互
 # truffle console --network platondev
 

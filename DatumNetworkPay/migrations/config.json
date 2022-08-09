@@ -3,9 +3,9 @@
     "mnemonic": "come include remember powder bird company arena vessel wing also embrace over"
   },
   "DatumNetworkPay": {
-    "implement": "0xE60CD0Ede3bF624121d8ED505bBF6928D889Ab20",
-    "proxyAdmin": "0x7097B115a15EF62Df5826e61b39258b90FF0Eb87",
-    "proxy": "0x8340A247862C92620Ec6412575a24bF2A8acA41b",
-    "wlatAddress": "0xa0C63FAC4e5425F4721FF3258c3FA5B381152F73"
+    "implement": "0x5aa0a4426499956804CF1BF02b3915072De41109",
+    "proxyAdmin": "0xb46fD148780f56693fB3A2c50bde9ADce57d1D86",
+    "proxy": "0xCfEd075c549707E5AC204B5eaE1eEeDae59eB1b1",
+    "wlatAddress": "0x7Af40a6C128bE41469616b254962e173491b5Fd5"
   }
 }

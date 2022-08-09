@@ -43,10 +43,10 @@ module.exports = {
     // options below to some value.
 
     platondev: {
-      provider: () => new HDWalletProvider(config.platondev.mnemonic, 'ws://35.247.155.162:6790'),
-      // host: "35.247.155.162",
-      // port: 6790,
-      // from: "0xc115ceadf9e5923330e5f42903fe7f926dda65d2",
+      // provider: () => new HDWalletProvider(config.platondev.mnemonic, 'http://10.1.1.51:6789'),
+      host: "10.1.1.51",
+      port: 6789,
+      from: "0x189DAff2C1faC1328ed4B50Bd0c869A336B54F0C",
       // network_id: 210309,       // Ropsten's id
       network_id: 1,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
@@ -54,7 +54,7 @@ module.exports = {
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true,     // Skip dry run before migrations? (default: false for public nets )
       networkCheckTimeout: 100000000,
-      websockets: true
+      websockets: false
     },
 
     // development: {
@@ -97,7 +97,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.5.7",      // Fetch exact version from solc-bin (default: truffle's version)
+      version: "0.8.13",      // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       settings: {          // See the solidity docs for advice about optimization and evmVersion
        optimizer: {

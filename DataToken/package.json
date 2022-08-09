@@ -13,10 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "@truffle/hdwallet-provider": "^2.0.5",
-    "jsonfile": "^6.1.0",
-    "openzeppelin-solidity": "^2.5.0"
+    "jsonfile": "^6.1.0"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
     "web3": "^1.7.3"
   }
 }

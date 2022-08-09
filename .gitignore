@@ -6,7 +6,7 @@ DatumNetworkPay/build
 DatumNetworkPay/node_modules 
 DatumNetworkPay/package-lock.json
 DatumNetworkPay/.openzeppelin
-NFT/build
-NFT/node_modules 
-NFT/package-lock.json
-NFT/.openzeppelin
+DID/build
+DID/node_modules 
+DID/package-lock.json
+DID/.openzeppelin

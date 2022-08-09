@@ -45,18 +45,18 @@ module.exports = {
     //
 
     platondev: {
-      provider: () => new HDWalletProvider(config.platondev.mnemonic, 'ws://192.168.10.146:7789'),
-      // host: "35.247.155.162",
-      // port: 6790,
-      // from: "0xc115ceadf9e5923330e5f42903fe7f926dda65d2",
+      provider: () => new HDWalletProvider(config.platondev.mnemonic, 'https://ropsten.infura.io/v3/603cc6c9fda3470595a7f5b1b778a73c'),
+      // host: "10.2.13.21",
+      // port: 8546,
+      // from: "0x652B300310A00357F896B0C2D8fc8BA35c726453",
       // network_id: 210309,       // Ropsten's id
-      network_id: 1,       // Ropsten's id
+      network_id: "*",       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true,     // Skip dry run before migrations? (default: false for public nets )
       networkCheckTimeout: 100000000,
-      websockets: true
+      websockets: false
     },
 
     // development: {

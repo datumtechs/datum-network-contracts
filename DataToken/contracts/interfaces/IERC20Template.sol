@@ -1,4 +1,8 @@
-pragma solidity >=0.5.0;
+// Copyright metis network contributors
+// SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+// Code is Apache-2.0 and docs are CC-BY-4.0
+
+pragma solidity ^0.8.0;
 
 interface IERC20Template {
     function initialize(
@@ -12,24 +16,9 @@ interface IERC20Template {
 
     function mint(address account, uint256 value) external;
     function minter() external view returns(address);    
-    function name() external view returns (string memory);
-    function symbol() external view returns (string memory);
-    function decimals() external view returns (uint8);
     function cap() external view returns (uint256);
     function isMinter(address account) external view returns (bool);
     function isInitialized() external view returns (bool);
-    function approve(address spender, uint256 value) external returns (bool);
-    function allowance(address owner, address spender)
-        external
-        view
-        returns (uint256);
-    function transferFrom(
-        address from,
-        address to,
-        uint256 value
-    ) external returns (bool);
-    function balanceOf(address account) external view returns (uint256);
-    function transfer(address to, uint256 value) external returns (bool);
 
     // 证据表示数据和token之间的关系
     function proof() external view returns(string memory);
@@ -61,5 +50,4 @@ interface IERC20Template {
     function exchangeState(uint256 exchangeId) external view returns (uint);
 }
 
-// 代理花费 lat，任务发起的carrier， 代理用户。
-// 用户花费和赚取 token
+
