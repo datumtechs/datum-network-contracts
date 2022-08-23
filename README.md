@@ -47,6 +47,7 @@ truffle migrate --network platondev
 # 如果是要升级 DatumNetworkPay 合约
 # 将 migrations/upgrade_contracts.js 改为 migrations/3_upgrade_contracts.js
 # migrations/config.json 中的参数保持和现网的一致
+# 强制从一个需要开始执行迁移
 truffle migrate --network platondev -f 3
 
 # 以下为可选项，需要单元测试时，执行以下步骤

@@ -43,10 +43,10 @@ module.exports = {
     // options below to some value.
 
     platondev: {
-      // provider: () => new HDWalletProvider(config.platondev.mnemonic, 'http://10.1.1.51:6789'),
-      host: "10.1.1.51",
-      port: 6789,
-      from: "0x189DAff2C1faC1328ed4B50Bd0c869A336B54F0C",
+      provider: () => new HDWalletProvider(config.platondev.mnemonic, 'http://35.247.155.162:6789'),
+      // host: "35.247.155.162",
+      // port: 6790,
+      // from: "0xc115ceadf9e5923330e5f42903fe7f926dda65d2",
       // network_id: 210309,       // Ropsten's id
       network_id: 1,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet

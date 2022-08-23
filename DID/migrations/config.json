@@ -12,24 +12,24 @@
   },
   "DID": {
     "Vote": {
-      "implement": "0x68E16707Da6AC624d30429BccfA3F941E96C39c5",
-      "proxyAdmin": "0x168DAB510AA443DCf0fAD5297Ff72fA15a9a661D",
-      "proxy": "0xdcef8B1e295a3eacfCc4a3468ada88b7c74fC7e6"
+      "implement": "0xFace76B61cbE42D93f6ceC9FFDb1AA54d8E98427",
+      "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
+      "proxy": "0x7c674359550a0c9B125e97E70426532127888e83"
     },
     "Did": {
-      "implement": "0x02bEE64116B753F19ffB450e40820CECB46f87Da",
-      "proxyAdmin": "0x168DAB510AA443DCf0fAD5297Ff72fA15a9a661D",
-      "proxy": "0x7249329Ba6de40c9f1F1428b4721599434c88dd7"
+      "implement": "0xBE6778f350dBE839EA326f2EBAf86d360f6c8416",
+      "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
+      "proxy": "0x8f3E8e06D90Ed50d6c804a0D83458eCBdD838e73"
     },
     "Pct": {
-      "implement": "0x3898bf9fc9A85E06141444eDfA448f5371D9C420",
-      "proxyAdmin": "0x168DAB510AA443DCf0fAD5297Ff72fA15a9a661D",
-      "proxy": "0xFF285ab629f9d0AB2eCA9ce56802AfA571636d6e"
+      "implement": "0x7224475a3b4DCfC830f9D7A93634CF93bB95461a",
+      "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
+      "proxy": "0xFE6aB68D7018e13fe7A4a7b36d4A6efa61C27C19"
     },
     "Credential": {
-      "implement": "0xe21e1Ac6eBB9Aa75FE5A0E67b6233F9c7fd772Bd",
-      "proxyAdmin": "0x168DAB510AA443DCf0fAD5297Ff72fA15a9a661D",
-      "proxy": "0xB50f8cd2641d9173951BC72c9B1183398165646B"
+      "implement": "0x8E08f00a64C06ee874A8633f6c351fC4F1192665",
+      "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
+      "proxy": "0x03f4FAF25002b45d5dBe3c7d60404D081837ABb2"
     }
   }
 }

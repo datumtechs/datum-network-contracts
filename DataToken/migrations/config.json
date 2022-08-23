@@ -3,9 +3,9 @@
     "mnemonic": "come include remember powder bird company arena vessel wing also embrace over"
   },
   "DataToken": {
-    "ERC20Template": "0x0Fe6BE5f3019af6DDeECD96AD938c2f6757c6f29",
-    "ERC20Factory": "0x3915142C73dEDc1d1580eC40bD31505003A6e370",
-    "ERC721Template": "0x9F600529f7DB9D4eeE2843533Fc696De44Ccb007",
-    "ERC721Factory": "0x4c67EB305F8bCEb7757785Ea3fe7C7F480f18403"
+    "ERC20Template": "0x41AF2ec2F24E987F6B1033b4C715Ef2a1A35ba0b",
+    "ERC20Factory": "0xD97024647B00a4b1e39aeF61d0B534c7e0342030",
+    "ERC721Template": "0xC04bB1f3E931a22f07A59373de9ED828eec6E3b7",
+    "ERC721Factory": "0x71c45ecf6524a775E1944972EBF78eFCaA3F093D"
   }
 }

@@ -50,15 +50,6 @@ module.exports = async function(deployer) {
   console.log("pct implement:", pctImplement);
   config.DID.Pct.implement = pctImplement;
 
-  // register node pct
-  const res = await pctProxy.registerPct(config.nodePCT.jsonSchema, '0x01');
-  const RegisterPctLog = res.logs.find(
-    element => element.event.match('RegisterPct') &&
-      element.address.match(pctProxy.address)
-  );
-  config.nodePCT.pctId = RegisterPctLog.args.pctId.toNumber();
-  await voteProxy.setAdmin(config.admin.address, config.admin.serviceUrl);
-
   // credential contract
   let credentialProxy = await deployProxy(Credential, [voteProxy.address], { deployer: deployer, initializer: 'initialize'});
   console.log('credential proxy:', credentialProxy.address);
