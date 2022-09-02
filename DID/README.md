@@ -15,3 +15,5 @@ did 合约部署过程为：
 4. 执行`truffle migrate --network platondev`, 注册组织 pct 信息，并获取 pctId， 更改 admin 信息为 config.json 中的 admin 的 address 和 serviceUrl。
 
 5. config.json 中的合约地址更新为新部署的合约地址。
+
+6. 更新合约， 将 upgrade_contracts.js 改名为 4_upgrade_contracts.js,  `truffle migrate --network platondev -f 4`。 更新之后合约的 `proxy` 和 `proxyAdmin` 地址不变，`implement` 地址变为最新的地址。

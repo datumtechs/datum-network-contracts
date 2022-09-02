@@ -12,24 +12,24 @@
   },
   "DID": {
     "Vote": {
-      "implement": "0xFace76B61cbE42D93f6ceC9FFDb1AA54d8E98427",
+      "implement": "0x77b5f9c7FcDAE9eAA4A48591BEf5208980c88fb2",
       "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
-      "proxy": "0x7c674359550a0c9B125e97E70426532127888e83"
+      "proxy": "0x40D0c91C32Ce0d4DB404dFF27d785Fc8274f6AFF"
     },
     "Did": {
       "implement": "0xBE6778f350dBE839EA326f2EBAf86d360f6c8416",
       "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
-      "proxy": "0x8f3E8e06D90Ed50d6c804a0D83458eCBdD838e73"
+      "proxy": "0xF0DE1b5a133CCba70627a6143250a1cC3851f864"
     },
     "Pct": {
       "implement": "0x7224475a3b4DCfC830f9D7A93634CF93bB95461a",
       "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
-      "proxy": "0xFE6aB68D7018e13fe7A4a7b36d4A6efa61C27C19"
+      "proxy": "0x89372391188B73f4Ab36069967EE5AA08C2c7b64"
     },
     "Credential": {
       "implement": "0x8E08f00a64C06ee874A8633f6c351fC4F1192665",
       "proxyAdmin": "0xA077c9B6Fe7BF7C6D6555f6E84DBb6f65Fe9949D",
-      "proxy": "0x03f4FAF25002b45d5dBe3c7d60404D081837ABb2"
+      "proxy": "0x6456df82BB792994Cc6270e067cA076456917fa7"
     }
   }
 }
