@@ -365,7 +365,7 @@ contract Vote is Initializable, OwnableUpgradeable{
         
             // 投票超过 66.6% 才算通过
             uint256 waterLevel = (authorityLength * 2) / 3;
-            voteResult = voterLength > waterLevel;
+            voteResult = voterLength >= waterLevel;
 
             // 根据结果处理 authority 列表
             if(voteResult){
