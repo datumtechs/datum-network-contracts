@@ -1,7 +1,7 @@
 
 const {deployProxy, erc1967} = require('@openzeppelin/truffle-upgrades');
 const DatumNetworkPay = artifacts.require("DatumNetworkPay");
-var WLAT = artifacts.require("WLAT");
+// var WLAT = artifacts.require("WLAT");
 const configFile = process.cwd() + "/config.json";
 const jsonfile = require('jsonfile')
 
