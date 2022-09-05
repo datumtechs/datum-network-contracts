@@ -322,7 +322,7 @@ contract Vote is Initializable, OwnableUpgradeable{
         }
 
         require(find, "invalid proposal id");
-        require(_proposalMap[proposalId].submitter == msg.sender, "invalid msg.sender");
+        require(_proposalMap[proposalId].submitter == msg.sender || _authorityList[0].addr == msg.sender, "invalid msg.sender");
 
         // 如果是自动退出，不用投票和统计投票数量
         bool voteResult = false;
