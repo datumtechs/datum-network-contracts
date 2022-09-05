@@ -2,19 +2,15 @@
 const {deployProxy, erc1967} = require('@openzeppelin/truffle-upgrades');
 const DatumNetworkPay = artifacts.require("DatumNetworkPay");
 var WLAT = artifacts.require("WLAT");
-var MyERC20 = artifacts.require("MyERC20");
 const configFile = process.cwd() + "/config.json";
 const jsonfile = require('jsonfile')
 
 async function deployDatumNetworkPay(deployer) {
   let config = await jsonfile.readFile(configFile);
 
-  erc20 = await deployer.deploy(MyERC20, '1000000000000000000000000');
-  console.log("erc20 address:", erc20.address);
-
-  wlat = await deployer.deploy(WLAT);
-  console.log("wlat address:", wlat.address);
-  config.DatumNetworkPay.wlatAddress = wlat.address;
+  // wlat = await deployer.deploy(WLAT);
+  // console.log("wlat address:", wlat.address);
+  // config.DatumNetworkPay.wlatAddress = wlat.address;
 
   let datumNetworkPayProxy = await deployProxy(DatumNetworkPay, [config.DatumNetworkPay.wlatAddress], { deployer: deployer, initializer: 'initialize'});
   console.log('DatumNetworkPay proxy:', datumNetworkPayProxy.address);
